@@ -1,0 +1,23 @@
+{
+    "name": "admin/springgds",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ilyas",
+            "email": "ilyas@metricoidtech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://ilyasbagwan@bitbucket.org/itembase/isa-library-pckg.git"
+        }
+    ],
+    "require": {
+        "itembase/postnl": "master",
+        "firebase/php-jwt": "dev-main",
+        "fheider/pdfmerger": "^1.0"
+    }
+}

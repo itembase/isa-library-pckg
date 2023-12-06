@@ -1,0 +1,20 @@
+{
+    "name": "itembase/postnl",
+    "description": "this is pakage",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itembase\\": "src/",
+            "Rules\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "itembase",
+            "email": "admin@itembase.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
